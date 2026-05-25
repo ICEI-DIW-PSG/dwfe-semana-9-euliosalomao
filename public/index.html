@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Ecommerce</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <h1>Mini Ecommerce</h1>
+
+  <section class="controls">
+    <input 
+      id="search" 
+      type="text" 
+      placeholder="Buscar produto..."
+    />
+
+    <select id="category">
+      <option value="Todas">Todas</option>
+    </select>
+
+    <button id="btnRender">Renderizar</button>
+  </section>
+
+  <main>
+    <div id="product-list"></div>
+
+    <div id="product-details">
+      <h2>Detalhes do produto</h2>
+      <p>Clique em "Ver detalhes" para visualizar um produto.</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
